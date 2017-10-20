@@ -1,0 +1,18 @@
+﻿<Window x:Class="HomeWorkWpf_Container.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HomeWorkWpf_Container"
+        mc:Ignorable="d"
+        Title="MainWindow"  Height="240" Width="480" MinHeight="240" MinWidth="640" MaxHeight="240" MaxWidth="480">
+    <Grid>
+        <DockPanel MouseMove="DockPanel_MouseMove">
+            <Button x:Name="buttonChase" Width="50" Height="20" HorizontalAlignment="Left" Content="Button" Margin="220,180,0,0" VerticalAlignment="Top"/>
+
+        </DockPanel>
+        <DockPanel MouseMove="DockPanelTwo_MouseMove">
+            <Button x:Name="buttonChaseTwo" Background="Green" Width="50" Height="20" Content="Button" HorizontalAlignment="Right" Margin="152,100,0,0" VerticalAlignment="Top"/>
+        </DockPanel>
+    </Grid>
+</Window>

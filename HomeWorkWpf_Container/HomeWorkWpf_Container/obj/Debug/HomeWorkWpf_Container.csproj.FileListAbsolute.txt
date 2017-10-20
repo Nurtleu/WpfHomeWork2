@@ -1,0 +1,14 @@
+D:\WPF\HomeWork\HomeWorkWpf_Container\HomeWorkWpf_Container\bin\Debug\HomeWorkWpf_Container.exe.config
+D:\WPF\HomeWork\HomeWorkWpf_Container\HomeWorkWpf_Container\bin\Debug\HomeWorkWpf_Container.exe
+D:\WPF\HomeWork\HomeWorkWpf_Container\HomeWorkWpf_Container\bin\Debug\HomeWorkWpf_Container.pdb
+D:\WPF\HomeWork\HomeWorkWpf_Container\HomeWorkWpf_Container\obj\Debug\MainWindow.g.cs
+D:\WPF\HomeWork\HomeWorkWpf_Container\HomeWorkWpf_Container\obj\Debug\App.g.cs
+D:\WPF\HomeWork\HomeWorkWpf_Container\HomeWorkWpf_Container\obj\Debug\HomeWorkWpf_Container_MarkupCompile.cache
+D:\WPF\HomeWork\HomeWorkWpf_Container\HomeWorkWpf_Container\obj\Debug\HomeWorkWpf_Container_MarkupCompile.lref
+D:\WPF\HomeWork\HomeWorkWpf_Container\HomeWorkWpf_Container\obj\Debug\MainWindow.baml
+D:\WPF\HomeWork\HomeWorkWpf_Container\HomeWorkWpf_Container\obj\Debug\HomeWorkWpf_Container.g.resources
+D:\WPF\HomeWork\HomeWorkWpf_Container\HomeWorkWpf_Container\obj\Debug\HomeWorkWpf_Container.Properties.Resources.resources
+D:\WPF\HomeWork\HomeWorkWpf_Container\HomeWorkWpf_Container\obj\Debug\HomeWorkWpf_Container.csproj.GenerateResource.Cache
+D:\WPF\HomeWork\HomeWorkWpf_Container\HomeWorkWpf_Container\obj\Debug\HomeWorkWpf_Container.exe
+D:\WPF\HomeWork\HomeWorkWpf_Container\HomeWorkWpf_Container\obj\Debug\HomeWorkWpf_Container.pdb
+D:\WPF\HomeWork\HomeWorkWpf_Container\HomeWorkWpf_Container\obj\Debug\HomeWorkWpf_Container.csprojResolveAssemblyReference.cache
