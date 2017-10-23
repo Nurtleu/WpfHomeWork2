@@ -1,11 +1,11 @@
-﻿<Window x:Class="HomeWorkWpf_Container.MainWindow"
+﻿<Window x:Class="HomeWorkWpf_Container.MovingButtonWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HomeWorkWpf_Container"
         mc:Ignorable="d"
-        Title="MainWindow"  Height="340" Width="480">
+        Title=""  Height="340" Width="480">
     <Grid>
         <DockPanel MouseMove="DockPanel_MouseMove">
             <Button x:Name="movingButton" DockPanel.Dock="Bottom" Width="16" Height="15" Background="Black" HorizontalAlignment="Left" Content="" VerticalAlignment="Top" Margin="250,100,0,0" Click="MovingButton_Click"/>

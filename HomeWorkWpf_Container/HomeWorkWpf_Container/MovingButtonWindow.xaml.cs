@@ -18,32 +18,36 @@ namespace HomeWorkWpf_Container
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MovingButtonWindow : Window
     {
         private double positionButtonXOne;
         private double positionButtonXTwo;
         private double positionButtonYOne;
-        private double positionButtonYTwo;
-        Random randomXPosition = new Random();
-        Random randomYPosition = new Random();
+        private double positionButtonYTwo;  
         private double ButtonSpace = 50;
         int startButtonX = 50;
         int startButtonY = 50;
         int endButtonX = 380;
         int endButtonY = 250;
+        Random randomXPosition = new Random();
+        Random randomYPosition = new Random();
 
 
-        public MainWindow()
+        public MovingButtonWindow()
         {
             InitializeComponent();
         }
 
         private void TheButton()
         {
-            positionButtonXOne = movingButton.Margin.Right - movingButton.Height + movingButton.Width + ButtonSpace;
-            positionButtonXTwo = movingButton.Margin.Left - movingButton.Height + movingButton.Width + ButtonSpace;
-            positionButtonYOne = movingButton.Margin.Bottom - movingButton.Height + movingButton.Width + ButtonSpace;
-            positionButtonYTwo = movingButton.Margin.Top - movingButton.Height + movingButton.Width + ButtonSpace;
+            positionButtonXOne = movingButton.Margin.Right - movingButton.Width + ButtonSpace;
+            positionButtonXTwo = movingButton.Margin.Left - movingButton.Width + ButtonSpace;
+            positionButtonYOne = movingButton.Margin.Bottom - movingButton.Width + ButtonSpace;
+            positionButtonYTwo = movingButton.Margin.Top - movingButton.Width + ButtonSpace;
+            positionButtonXOne = movingButton.Margin.Right - movingButton.Height + ButtonSpace;
+            positionButtonXTwo = movingButton.Margin.Left - movingButton.Height + ButtonSpace;
+            positionButtonYOne = movingButton.Margin.Bottom - movingButton.Height + ButtonSpace;
+            positionButtonYTwo = movingButton.Margin.Top - movingButton.Height + ButtonSpace;
         }
 
         private bool ButtonChase(MouseEventArgs e)
@@ -77,7 +81,7 @@ namespace HomeWorkWpf_Container
             TheButton();
             if (ButtonChase(e))
             {
-                movingButton.Margin = new Thickness(Convert.ToDouble(randomYPosition.Next(startButtonX, endButtonX)), Convert.ToDouble(randomYPosition.Next(startButtonY, endButtonY)), 0, 0);
+                movingButton.Margin = new Thickness(Convert.(randomXPosition.Next(startButtonX, endButtonX)), Convert.ToDouble(randomYPosition.Next(startButtonY, endButtonY)), 0, 0);
             }
             else
             {
@@ -85,7 +89,7 @@ namespace HomeWorkWpf_Container
             }
         }
 
-        private void ButtonChase_Click(object sender, RoutedEventArgs e)
+        private void MovingButton_Click(object sender, RoutedEventArgs e)
         {
             SolidColorBrush backColor = new SolidColorBrush();
             this.Background = backColor;

@@ -12,3 +12,17 @@ D:\WPF\HomeWork\HomeWorkWpf_Container\HomeWorkWpf_Container\obj\Debug\HomeWorkWp
 D:\WPF\HomeWork\HomeWorkWpf_Container\HomeWorkWpf_Container\obj\Debug\HomeWorkWpf_Container.exe
 D:\WPF\HomeWork\HomeWorkWpf_Container\HomeWorkWpf_Container\obj\Debug\HomeWorkWpf_Container.pdb
 D:\WPF\HomeWork\HomeWorkWpf_Container\HomeWorkWpf_Container\obj\Debug\HomeWorkWpf_Container.csprojResolveAssemblyReference.cache
+C:\Users\ОмиржанН\Documents\GitHub\WpfHomeWork2\HomeWorkWpf_Container\HomeWorkWpf_Container\obj\Debug\HomeWorkWpf_Container.csprojResolveAssemblyReference.cache
+C:\Users\ОмиржанН\Documents\GitHub\WpfHomeWork2\HomeWorkWpf_Container\HomeWorkWpf_Container\obj\Debug\MovingButtonWindow.g.cs
+C:\Users\ОмиржанН\Documents\GitHub\WpfHomeWork2\HomeWorkWpf_Container\HomeWorkWpf_Container\obj\Debug\App.g.cs
+C:\Users\ОмиржанН\Documents\GitHub\WpfHomeWork2\HomeWorkWpf_Container\HomeWorkWpf_Container\obj\Debug\HomeWorkWpf_Container_MarkupCompile.cache
+C:\Users\ОмиржанН\Documents\GitHub\WpfHomeWork2\HomeWorkWpf_Container\HomeWorkWpf_Container\obj\Debug\HomeWorkWpf_Container_MarkupCompile.lref
+C:\Users\ОмиржанН\Documents\GitHub\WpfHomeWork2\HomeWorkWpf_Container\HomeWorkWpf_Container\obj\Debug\HomeWorkWpf_Container.exe
+C:\Users\ОмиржанН\Documents\GitHub\WpfHomeWork2\HomeWorkWpf_Container\HomeWorkWpf_Container\obj\Debug\HomeWorkWpf_Container.pdb
+C:\Users\ОмиржанН\Documents\GitHub\WpfHomeWork2\HomeWorkWpf_Container\HomeWorkWpf_Container\bin\Debug\HomeWorkWpf_Container.exe.config
+C:\Users\ОмиржанН\Documents\GitHub\WpfHomeWork2\HomeWorkWpf_Container\HomeWorkWpf_Container\bin\Debug\HomeWorkWpf_Container.exe
+C:\Users\ОмиржанН\Documents\GitHub\WpfHomeWork2\HomeWorkWpf_Container\HomeWorkWpf_Container\bin\Debug\HomeWorkWpf_Container.pdb
+C:\Users\ОмиржанН\Documents\GitHub\WpfHomeWork2\HomeWorkWpf_Container\HomeWorkWpf_Container\obj\Debug\MovingButtonWindow.baml
+C:\Users\ОмиржанН\Documents\GitHub\WpfHomeWork2\HomeWorkWpf_Container\HomeWorkWpf_Container\obj\Debug\HomeWorkWpf_Container.g.resources
+C:\Users\ОмиржанН\Documents\GitHub\WpfHomeWork2\HomeWorkWpf_Container\HomeWorkWpf_Container\obj\Debug\HomeWorkWpf_Container.Properties.Resources.resources
+C:\Users\ОмиржанН\Documents\GitHub\WpfHomeWork2\HomeWorkWpf_Container\HomeWorkWpf_Container\obj\Debug\HomeWorkWpf_Container.csproj.GenerateResource.Cache
