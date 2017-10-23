@@ -5,14 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HomeWorkWpf_Container"
         mc:Ignorable="d"
-        Title="MainWindow"  Height="240" Width="480" MinHeight="240" MinWidth="640" MaxHeight="240" MaxWidth="480">
+        Title="MainWindow"  Height="340" Width="480">
     <Grid>
         <DockPanel MouseMove="DockPanel_MouseMove">
-            <Button x:Name="buttonChase" Width="50" Height="20" HorizontalAlignment="Left" Content="Button" Margin="220,180,0,0" VerticalAlignment="Top"/>
-
-        </DockPanel>
-        <DockPanel MouseMove="DockPanelTwo_MouseMove">
-            <Button x:Name="buttonChaseTwo" Background="Green" Width="50" Height="20" Content="Button" HorizontalAlignment="Right" Margin="152,100,0,0" VerticalAlignment="Top"/>
+            <Button x:Name="movingButton" DockPanel.Dock="Bottom" Width="16" Height="15" Background="Black" HorizontalAlignment="Left" Content="" VerticalAlignment="Top" Margin="250,100,0,0" Click="MovingButton_Click"/>
         </DockPanel>
     </Grid>
 </Window>

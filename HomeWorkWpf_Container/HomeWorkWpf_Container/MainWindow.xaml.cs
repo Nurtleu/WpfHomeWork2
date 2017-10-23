@@ -20,100 +20,75 @@ namespace HomeWorkWpf_Container
     /// </summary>
     public partial class MainWindow : Window
     {
-        Random randomXTwo = new Random();
-        Random randomYTwo = new Random();
-        Random randomX = new Random();
-        Random randomY = new Random();
         private double positionButtonXOne;
         private double positionButtonXTwo;
-        private double positionButtonXFour;
-        private double positionButtonXThree;
-        private double positionButtonY;
+        private double positionButtonYOne;
         private double positionButtonYTwo;
-        private double ButtonSpace = 30;
-        int startButtonX = 30;
-        int startButtonY = 30;
+        Random randomXPosition = new Random();
+        Random randomYPosition = new Random();
+        private double ButtonSpace = 50;
+        int startButtonX = 50;
+        int startButtonY = 50;
         int endButtonX = 380;
-        int endButtonY = 200;
-        private double ButtonSpaceTwo = 50;
-        int startButtonXTwo = 50;
-        int startButtonYTwo = 50;
-        int endButtonXTwo = 480;
-        int endButtonYTwo = 300;
+        int endButtonY = 250;
+
 
         public MainWindow()
         {
             InitializeComponent();
         }
-        
-        private void CatchTheButton()
-        {
-            positionButtonY = buttonChase.Margin.Top - ButtonSpace;
-            positionButtonXOne = buttonChase.Margin.Left - ButtonSpace;
-            positionButtonXTwo = buttonChase.Margin.Left + buttonChase.Width + ButtonSpace;
-        }
 
-        private void ButtonTheCatch()
+        private void TheButton()
         {
-            positionButtonYTwo = buttonChaseTwo.Margin.Top - ButtonSpaceTwo;
-            positionButtonXThree = buttonChaseTwo.Margin.Right - ButtonSpaceTwo;
-            positionButtonXFour = buttonChaseTwo.Margin.Right + buttonChaseTwo.Width + ButtonSpaceTwo;
-        }
-
-        private void DockPanel_MouseMove(object sender, MouseEventArgs e)
-        {
-            CatchTheButton();
-            if (ButtonChase(e))
-            {
-                buttonChase.Margin = new Thickness(Convert.ToDouble(randomY.Next(startButtonX, endButtonX)), Convert.ToDouble(randomY.Next(startButtonY, endButtonY)), 0, 0);
-            }
+            positionButtonXOne = movingButton.Margin.Right - movingButton.Height + movingButton.Width + ButtonSpace;
+            positionButtonXTwo = movingButton.Margin.Left - movingButton.Height + movingButton.Width + ButtonSpace;
+            positionButtonYOne = movingButton.Margin.Bottom - movingButton.Height + movingButton.Width + ButtonSpace;
+            positionButtonYTwo = movingButton.Margin.Top - movingButton.Height + movingButton.Width + ButtonSpace;
         }
 
         private bool ButtonChase(MouseEventArgs e)
         {
             if (e.GetPosition(null).X >= positionButtonXOne && e.GetPosition(null).X <= positionButtonXTwo)
             {
-                if (e.GetPosition(null).Y >= positionButtonY)
+                if (e.GetPosition(null).Y >= positionButtonYOne)
                 {
                     return true;
                 }
+
+                else if (e.GetPosition(null).Y >= positionButtonYTwo)
+                {
+                    return true;
+                }
+
                 else
                 {
                     return false;
                 }
             }
+
             else
             {
                 return false;
             }
         }
 
-        private void DockPanelTwo_MouseMove(object sender, MouseEventArgs e)
+        private void DockPanel_MouseMove(object sender, MouseEventArgs e)
         {
-            ButtonTheCatch();
-            if (ButtonChaseTwo(e))
+            TheButton();
+            if (ButtonChase(e))
             {
-                buttonChaseTwo.Margin = new Thickness(Convert.ToDouble(randomYTwo.Next(startButtonXTwo, endButtonXTwo)), Convert.ToDouble(randomYTwo.Next(startButtonYTwo, endButtonYTwo)), 0, 0);
-            }
-        }
-
-        private bool ButtonChaseTwo(MouseEventArgs e)
-        {
-            if (e.GetPosition(null).X >= positionButtonXThree && e.GetPosition(null).X <= positionButtonXFour)
-            {
-                if (e.GetPosition(null).Y >= positionButtonYTwo)
-                {
-                    return true;
-                }
-                else
-                {
-                    return false;
-                }
+                movingButton.Margin = new Thickness(Convert.ToDouble(randomYPosition.Next(startButtonX, endButtonX)), Convert.ToDouble(randomYPosition.Next(startButtonY, endButtonY)), 0, 0);
             }
             else
             {
-                return false;
+                return;
             }
+        }
+
+        private void ButtonChase_Click(object sender, RoutedEventArgs e)
+        {
+            SolidColorBrush backColor = new SolidColorBrush();
+            this.Background = backColor;
         }
     }
 }
